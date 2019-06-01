@@ -2,8 +2,18 @@
 box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition: 3s all ease-in-out;
 }
-.container{display: flex;
+
+.jumbotron{color:blueviolet;
+    height: 30px;
+    padding-top: 240px;
+    padding-bottom: 280px;
+}
+h1{
+    text-align: center
+}
+.flex{display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: space-around;
