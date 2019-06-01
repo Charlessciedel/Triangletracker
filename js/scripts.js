@@ -16,3 +16,7 @@ function triangleTracker() {
       else if (lengthOfSidex === lengthOfSidey || lengthOfSidex=== lengthOfSidez || lengthOfSidey === lengthOfSidez ) {
         alert("An Isosceles Triangle");
       }
+      else if ((lengthOfSidex+lengthOfSidey <= (lengthOfSidez) || (lengthOfSidex+lengthOfSidez) <= (lengthOfSidey) || (lengthOfSidey+lengthOfSidez)<= (lengthOfSidex)) {
+        alert("Not a Triangle");
+      }
+      
