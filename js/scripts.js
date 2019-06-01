@@ -9,3 +9,7 @@ function triangleTracker() {
     else if(lengthOfSidex < 1 || lengthOfSidey < 1 || lengthOfSidez < 1){
         alert ("invalid entry");
     }
+
+    else if (lengthOfSidex === lengthOfSidey && lengthOfSidey === lengthOfSidez && lengthOfSidez === lengthOfSidex) {
+        alert("An Equilateral Triangle");
+      }
