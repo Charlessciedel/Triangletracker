@@ -19,15 +19,18 @@
     <form>
         <div class="form-group">
           <label for="formGroupExampleInput">Side x</label>
-          <input type="number" class="form-control" id="Side x" placeholder="Example input">
+          <input type="number" class="form-control" min="1" id="Side x" placeholder="Example input">
         </div>
         <div class="form-group">
           <label for="formGroupExampleInput2">Side y</label>
-          <input type="number" class="form-control" id="Side y" placeholder="Another input">
+          <input type="number" class="form-control" min="1" id="Side y" placeholder="Another input">
         </div>
         <div class="form-group">
             <label for="formGroupExampleInput2">Side z</label>
-            <input type="number" class="form-control" id="side z" placeholder="Another input">
+            <input type="number" class="form-control" min="1" id="side z" placeholder="Another input">
+          </div>
+          <div class="btn">
+            <input type="button" id="button"  value="Submit" onClick="triangleTracker()">
           </div>
       </form>
     </div>
