@@ -19,4 +19,7 @@ function triangleTracker() {
       else if ((lengthOfSidex+lengthOfSidey <= (lengthOfSidez) || (lengthOfSidex+lengthOfSidez) <= (lengthOfSidey) || (lengthOfSidey+lengthOfSidez)<= (lengthOfSidex)) {
         alert("Not a Triangle");
       }
-      
+      else  {
+        alert("A Scalene Triangle");
+      }
+     }
