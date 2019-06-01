@@ -13,3 +13,6 @@ function triangleTracker() {
     else if (lengthOfSidex === lengthOfSidey && lengthOfSidey === lengthOfSidez && lengthOfSidez === lengthOfSidex) {
         alert("An Equilateral Triangle");
       }
+      else if (lengthOfSidex === lengthOfSidey || lengthOfSidex=== lengthOfSidez || lengthOfSidey === lengthOfSidez ) {
+        alert("An Isosceles Triangle");
+      }
