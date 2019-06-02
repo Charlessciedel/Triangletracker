@@ -1,22 +1,22 @@
 function triangleTracker() {
-    var lengthOfSidex = parseInt(document.getElementById("Side x").value)
-    var lengthOfSidey = parseInt(document.getElementById("Side y").value);
-    var lengthOfSidez = parseInt(document.getElementById("Side z").value);
+    var Sidex = parseInt(document.getElementById("Side x").value)
+    var Sidey = parseInt(document.getElementById("Side y").value);
+    var Sidez = parseInt(document.getElementById("Side z").value);
 
-    if (isNaN(lengthOfSidex)|| isNaN(lengthOfSidey)|| isNaN(lengthOfSidez)){
+    if (isNaN(Sidex)|| isNaN(Sidey)|| isNaN(Sidez)){
         alert("please in put a number");
     }
-    else if(lengthOfSidex < 1 || lengthOfSidey < 1 || lengthOfSidez < 1){
+    else if(Sidex < 1 || Sidey < 1 || Sidez < 1){
         alert ("invalid entry");
     }
 
-    else if (lengthOfSidex === lengthOfSidey && lengthOfSidey === lengthOfSidez && lengthOfSidez === lengthOfSidex) {
+    else if (Sidex === Sidey && Sidey === Sidez && Sidez === Sidex) {
         alert("An Equilateral Triangle");
       }
-      else if (lengthOfSidex === lengthOfSidey || lengthOfSidex=== lengthOfSidez || lengthOfSidey === lengthOfSidez ) {
+      else if (Sidex === Sidey || Sidex=== Sidez || Sidey === Sidez ) {
         alert("An Isosceles Triangle");
       }
-      else if (((lengthOfSidex+lengthOfSidey) <= (lengthOfSidez)) || ((lengthOfSidex+lengthOfSidez) <= (lengthOfSidey)) || ((lengthOfSidey+lengthOfSidez)<= (lengthOfSidex))) {
+      else if (((Sidex+lengthOfSidey) <= (Sidez)) || ((Sidex+Sidez) <= (Sidey)) || ((Sidey+Sidez)<= (Sidex))) {
         alert("Not a Triangle");
       }
       else  {
