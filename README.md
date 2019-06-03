@@ -29,6 +29,9 @@ The website has three boxes in which the user enters numerical values. Upon subm
 | Digits value is less than one        |       0    |           Invalid entry  |
 
 
+##  Known Bugs
+
+all alphabets cannot be keyed in except E
 ### Technologies used
 * CSS
 * HTML
