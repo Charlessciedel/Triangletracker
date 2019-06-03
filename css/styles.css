@@ -1,47 +1,51 @@
-*{
-box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    transition: 3s all ease-in-out;
-    background-color: rgb(157, 224, 226);
-    font-family: 'Aldrich', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 3s all ease-in-out;
+  background-color: rgb(157, 224, 226);
+  font-family: 'Aldrich', sans-serif;
 }
 
-.jumbotron{color:blueviolet;
-    height: 30px;
-    padding-top: 240px;
-    padding-bottom: 280px;
+.jumbotron {
+  color: blueviolet;
+  height: 30px;
+  padding-top: 240px;
+  padding-bottom: 280px;
 }
-h1{
-    text-align: center
+
+h1 {
+  text-align: center
 }
-.flex{display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: space-around;
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #button {
-    text-align: center;
-    font-size: 25px;
-    padding: 10px;
-    background-color: black;
-    border-radius: 8px;
-    color: white;
-  }
-  
-  #button:hover {
-    background-color: black;
-  }
-  
-  #Sidex {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+}
+
+#button:hover {
+  background-color: black;
+}
+
+/*#Sidex {
     width: 50%;
     height: 40px;
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
   }
-  
+
   #Sidey {
     width: 50%;
     height: 40px;
@@ -49,19 +53,20 @@ justify-content: space-around;
     text-align: center;
     border-radius: 10px;
   }
-  
+
   #Sidez {
     width: 50%;
     height: 40px;
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
-  }
- .text{ 
+  }*/
+.text {
   font-family: 'Aldrich', sans-serif;
   margin-top: 20px;
- } 
- p{
-   font-family: 'Aldrich', sans-serif;
-   text-align: center; 
- }
+}
+
+p {
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+}
