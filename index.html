@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Triangle Tracker</title>
-        <link rel="stylesheet" href="css/styles.css" type="text/css">
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Aldrich|Neucha|Poiret+One&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-<div class="jumbotron"><h1>TRIANGLE TRACKER</h1>
-</div>
-<div class="container">
+<head>
+  <meta charset="utf-8">
+  <title>Triangle Tracker</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Aldrich|Neucha|Poiret+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1>TRIANGLE TRACKER</h1>
+  </div>
+  <div class="container">
 
 
     <p>Input triangle dimensions in the boxes assigned below to get the type of triangle the dimensions used will make.</p>
     <div class="flex">
-    <img src="/home/moringa/Documents/Moringa-school-projects/second-project/images/Untitled.png" alt="Types of triangles ">
-    <form>
+      <img src="/home/moringa/Documents/Moringa-school-projects/second-project/images/Untitled.png" alt="Types of triangles ">
+      <form>
         <div class="form-group">
           <label for="formGroupExampleInput">Side x</label>
           <input type="number" class="form-control" min="1" id="Sidex" placeholder="positive int" pattern="\d+">
@@ -27,19 +29,22 @@
           <input type="number" class="form-control" min="1" id="Sidey" placeholder="positive int" pattern="\d+">
         </div>
         <div class="form-group">
-            <label for="formGroupExampleInput2">Side z</label>
-            <input type="number" class="form-control" min="1" id="Sidez" placeholder="positive int" pattern="\d+">
-          </div>
-          <div class="btn">
-            <input type="button" id="button"  value="Submit" onClick="triangleTracker()">
-          </div>
+          <label for="formGroupExampleInput2">Side z</label>
+          <input type="number" class="form-control" min="1" id="Sidez" placeholder="positive int" pattern="\d+">
+        </div>
+        <div class="btn">
+          <input type="button" id="button" value="Submit" onClick="triangleTracker()">
+        </div>
       </form>
     </div>
-    <div class="text"><h1>HAVE FUN WITH MATHS!</h1></div>
-    
-       
-    
+    <div class="text">
+      <h1>HAVE FUN WITH MATHS!</h1>
+    </div>
+
+
+
     <script src="js/scripts.js"></script>
-</div>
-    </body>
+  </div>
+</body>
+
 </html>
