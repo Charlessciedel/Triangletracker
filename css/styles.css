@@ -3,6 +3,8 @@ box-sizing: border-box;
     margin: 0;
     padding: 0;
     transition: 3s all ease-in-out;
+    background-color: rgb(157, 224, 226);
+    font-family: 'Aldrich', sans-serif;
 }
 
 .jumbotron{color:blueviolet;
@@ -32,27 +34,34 @@ justify-content: space-around;
     background-color: black;
   }
   
-  #Side x {
-    width: 30%;
+  #Sidex {
+    width: 50%;
     height: 40px;
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
   }
   
-  #Side y {
-    width: 30%;
+  #Sidey {
+    width: 50%;
     height: 40px;
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
   }
   
-  #Side z {
-    width: 30%;
+  #Sidez {
+    width: 50%;
     height: 40px;
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
   }
-  
+ .text{ 
+  font-family: 'Aldrich', sans-serif;
+  margin-top: 15px;
+ } 
+ p{
+   font-family: 'Aldrich', sans-serif;
+   text-align: center; 
+ }
